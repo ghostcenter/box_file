@@ -1,5 +1,41 @@
-# box_file
+# BOX网盘上传工具 #
 
-box yourkey{LjCy5WOeSjSijMZTdhgfsfJaLCSJ0Wy2} cd.zip
+##一、文件说明##
 
-upload file cd.zip to your box
+box_32.exe ---适用32位和64位系统 md5:B0867C3085441CD5EC2A9AB6CD8224C4
+
+box_64.exe ---适用64位系统 md5:EF34D253AD9F9CC1E271C6E84DD5374E
+
+box.go ---GO语言源码
+
+box.py ---Python源码
+
+##二、使用说明##
+
+**1、用法**
+
+box_32 [*token*] [*file*]
+
+**2、使用方法**
+
+1）注册Box账户
+
+
+2）进入开发者界面
+
+
+3）创建新的App
+
+
+4）进入App的配置页面
+
+
+将Token复制保存，注意：**Token的有效时间为60分钟**，有效时间过了以后Token失效，需要点击“Revoke”按钮重新生成。
+
+5）执行Box工具
+
+6）在新的浏览器标签中查看上传结果
+
+##三、注意事项##
+
+目前工具已在Windows XP SP3、Windows 7 32位和64位上测试成功，已测试的最大上传文件为550M，上传过程中token过期的话将导致文件上传失败。
